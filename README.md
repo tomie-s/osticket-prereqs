@@ -22,20 +22,24 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Enable IIS in Windows
-- Install PHP Manager for IIS
-- Install the Rewrite Module
-- Install PHP on Windows
-- Install VC redist
-- Install MySQL on Windows
-
 <ul>
-- Enable IIS in Windows
-- Install PHP Manager for IIS
-- Install the Rewrite Module
-- Install PHP on Windows
-- Install VC redist
-- Install MySQL on Windows
+  <li>Install OsTicket dependencies
+    <ul>
+      <li>IIS in Windows</li>
+      <li>PHP Manager for IIS</li>
+      <li>Rewrite Module</li>
+      <li>PHP</li>
+      <li>VC redist</li>
+      <li>MySQL</li>
+    </ul>
+  </li>
+  <li>Register PHP from within IIS</li>
+  <li>Install OsTicket</li>
+  <li>Enable extensions on PHP manager within IIS</li>
+  <li>Setup OsTicket account</li>
+  <li>Install HeidiSQL and create OsTicket db</li>
+  <li>Connect OsTicket account to MySQL db</li>
+  <li>Login to OsTicket account as admin</li>
 </ul>
 
 <h2>Installation Steps</h2>
